@@ -1,5 +1,5 @@
 context:
-  version: 0.7.0
+  version: "0.8.0"
 
 package:
   name: uutils-findutils
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/uutils/findutils/archive/${{ version }}.tar.gz
-  sha256: 129c263c6953b5c6aa756666aa9f5e968e04c1d0315d9d8ad9e93ec3d1823bc0
+  sha256: 932f153d256f7a4cf40255a948689bf59a10f14c8804151817ab50fa1b46429a
 
 build:
   number: 0
