@@ -10,7 +10,7 @@ source:
   sha256: 932f153d256f7a4cf40255a948689bf59a10f14c8804151817ab50fa1b46429a
 
 build:
-  number: 1
+  number: 2
   skip: win
 
 requirements:
@@ -26,7 +26,7 @@ requirements:
 tests:
   - script:
       - find --help
-      - xargs --help 2>&1 | grep -q "Usage: xargs"
+      - "xargs --help 2>&1 | grep -q \"Usage: xargs\""
 
 about:
   license: MIT
